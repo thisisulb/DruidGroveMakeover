@@ -1,0 +1,15 @@
+BACKUP ~DruidGroveMakeover/backup~ // So WeiDU can uninstall
+AUTHOR ~eMail: thisisulb@gmail.com~ // Contact address displayed if installation fails
+README ~DruidGroveMakeover/readme.pdf~ // Shows readme file
+
+BEGIN ~Druid Grove Area Visual Makeover~
+COPY_EXISTING ~ar1900.are~ ~override~
+  READ_SHORT 0x48 location
+  WRITE_SHORT 0x48 (location BAND BNOT 0x40)  // clears bit 6 (Extended Night)
+BUT_ONLY
+ACTION_IF (GAME_IS ~bg2ee eet~) THEN BEGIN     // Check if EE
+COPY ~DruidGroveMakeover/PVRZ~ ~override~    // New EE TIS files
+END
+ACTION_IF (NOT GAME_IS ~bg2ee eet~) THEN BEGIN     // Check if not EE
+COPY ~DruidGroveMakeover/LEGACY~ ~override~    // Old TIS file
+END
