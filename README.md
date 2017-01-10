@@ -59,13 +59,9 @@ should be fully compatible with pretty much every mod out there that
 does NOT change the area art and is compatible with the
 classic BG2/ToB game as well as BG2EE (and EET).
 
-The only mod
-I can think of that will probably cause compatibility issues is the
-BG Graphics Overhaul mod. Assuming the mod does not alter the .wed
-files or add the extended night flag to the area, installing my mod
-AFTER BG Graphics Overhaul should simply overwrite any changes
-that it might have made to the druid grove area.
-
+Currently the only known compatibility conflict is with G3's BG2Fixpack.
+If BG2Fixpack is installed Druid Grove Makeover needs to be installed 
+AFTER BG2Fixpack in order to work properly.
 
 4. Installation
 
@@ -80,5 +76,5 @@ II. Run (double click on)
 
 5. Many Thanks to
 
-- Argent77 for his continued work on NearInfinity
+- Argent77 for his continued work on NearInfinity and coding.
 
