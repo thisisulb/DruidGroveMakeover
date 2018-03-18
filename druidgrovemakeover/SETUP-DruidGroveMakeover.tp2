@@ -11,5 +11,5 @@ ACTION_IF (GAME_IS ~bg2ee eet~) THEN BEGIN     // Check if EE
 COPY ~DruidGroveMakeover/PVRZ~ ~override~    // New EE TIS files
 END
 ACTION_IF (NOT GAME_IS ~bg2ee eet~) THEN BEGIN     // Check if not EE
-COPY ~DruidGroveMakeover/LEGACY~ ~override~    // Old TIS file
+COPY_LARGE ~DruidGroveMakeover/LEGACY~ ~override~    // Old TIS file
 END
