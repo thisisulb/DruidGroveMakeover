@@ -1,6 +1,7 @@
 BACKUP ~DruidGroveMakeover/backup~ // So WeiDU can uninstall
 AUTHOR ~eMail: thisisulb@gmail.com~ // Contact address displayed if installation fails
 README ~DruidGroveMakeover/readme.pdf~ // Shows readme file
+VERSION ~1.2~
 
 BEGIN ~Druid Grove Area Visual Makeover~
 COPY_EXISTING ~ar1900.are~ ~override~
