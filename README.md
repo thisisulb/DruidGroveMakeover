@@ -1,20 +1,8 @@
 
-Druid Grove Area Makeover - Readme
+## Druid Grove Area Makeover v1.2
 
-Table of Contents
 
-Introduction
-
-Overview
-
-Compatibility
-
-Installation
-
-Credits
-
-1.
-Introduction
+**Introduction**
 
 This mod aims to improve
 the visual esthetic of the druid grove outdoor area.
@@ -30,7 +18,7 @@ With this mod I aim to fix
 that by overwriting the area art with a modified version.
 
 
-2. Overview
+**Overview**
 
 Changes only affect the
 area art, everything else (lighting, pathing, triggers, ..) stays
@@ -52,7 +40,7 @@ by side comparison between the old and new druid grove exterior at
 this imgur link: http://imgur.com/a/lrIMI
 
 
-3. Compatibility
+**Compatibility**
 
 The mod
 should be fully compatible with pretty much every mod out there that
@@ -63,7 +51,7 @@ Currently the only known compatibility conflict is with G3's BG2Fixpack.
 If BG2Fixpack is installed Druid Grove Makeover needs to be installed 
 AFTER BG2Fixpack in order to work properly.
 
-4. Installation
+**Installation**
 
 I. Extract the
 'DruidGroveMakeover.7z' file into your main game folder and make sure
@@ -74,7 +62,7 @@ II. Run (double click on)
 "Setup-DruidGroveMakeover .exe".
 
 
-5. Many Thanks to
+**Many Thanks to**
 
 - Argent77 for his continued work on NearInfinity and coding.
 
